@@ -1,0 +1,7 @@
+:root {
+    --body-color: #F8F8F9;
+    --header-color: linear-gradient(to right, #96C2DB, #c4d0d6);
+    --hover-color: rgb(17, 20, 57);
+    --navbar-color: #24658b;
+    --project-background-color: linear-gradient(to left,  #96C2DB, #c4d0d6);
+}

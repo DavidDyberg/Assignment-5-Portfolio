@@ -1,0 +1,32 @@
+.plugin-carosuel {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.slide .slider-container .slider-wrapper li img {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+main {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    align-items: center;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+
+:root {
+    --color-slider: blue;
+}

@@ -1,0 +1,89 @@
+.project-title {
+    text-decoration: underline;
+}
+
+.project-images {
+    -ms-flex-pack: center;
+    -ms-flex-pack: space-evenly;
+    -ms-flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-box-pack: space-evenly;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.project-image {
+    cursor: pointer;
+    width: 350px;
+}
+
+.image-assignment2,
+.image-assignment3,
+.image-pokemon-API,
+.image-spotify-API,
+.image-astromony-API {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    align-items: center;
+    background: var(--project-background-color);
+    border-radius: 8px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px;
+    min-height: 280px;
+    width: 370px;
+}
+
+.image-assignment2 img:hover,
+.image-assignment3 img:hover,
+.image-pokemon-API img:hover,
+.image-spotify-API img:hover,
+.image-astromony-API img:hover {
+    -webkit-box-shadow: 0 0 0 3px var(--hover-color);
+    -webkit-transition: .5s ease;
+    box-shadow: 0 0 0 3px var(--hover-color);
+    transition: .5s ease;
+}
+
+.project-description {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.project-description:hover {
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.hidden-text {
+    display: none;
+    margin: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .image-assignment2,
+    .image-assignment3,
+    .image-pokemon-API,
+    .image-spotify-API,
+    .image-astromony-API {
+        min-height: 210px;
+        width: 277px;
+    }
+
+    .project-image {
+        width: 262px;
+    }
+}

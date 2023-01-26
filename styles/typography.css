@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'uncut_sansregular';
+    src: url('../fonts/uncut-sans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/uncut-sans-regular-webfont.woff') format('woff');
+}
